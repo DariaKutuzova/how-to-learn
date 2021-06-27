@@ -129,7 +129,6 @@ p:last-of-type {
 }
 
 .section-title {
-  margin: 0;
   width: 60%;
   text-align: center;
   line-height: 1.15;
@@ -139,7 +138,6 @@ p:last-of-type {
 }
 
 .section-subtitle {
-  margin: 0;
   width: 60%;
   text-align: center;
   line-height: 34px;
@@ -173,7 +171,6 @@ p:last-of-type {
 }
 
 .table__text {
-  margin: 0;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
