@@ -1,3 +1,11 @@
+@keyframes rotation {
+  from{
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 .page {
   min-width: 1100px;
   max-width: 1600px;
@@ -16,12 +24,19 @@
   justify-content: center;
   align-items: flex-start;
   flex-wrap: wrap;
+  overflow: hidden;
 }
 .logo {
   height: 32px;
   width: 183px;
   background-image: url(../images/logo_place_header.svg);
   z-index: 3;
+  opacity: 1;
+}
+
+.logo:hover{
+  opacity: 0.5;
+  transition: opacity 0.2s  linear;
 }
 
 .logo_place_header {
@@ -56,6 +71,12 @@
 .header__link {
   color: #2f80ed;
   text-decoration: none;
+  opacity: 1;
+}
+
+.header__link:hover {
+  opacity: 0.5;
+  transition: opacity 0.2s  linear;
 }
 
 .header__square-pic {
@@ -65,6 +86,9 @@
   position: absolute;
   right: 0;
   top: 64px;
+}
+.rotation{
+animation: rotation 20s linear infinite;
 }
 
 .header__main-illustration {
@@ -79,7 +103,6 @@
 .description {
   display: flex;
   justify-content: center;
-  margin-top: 100px;
 }
 
 .techniques {
@@ -154,9 +177,12 @@
 }
 
 .video__iframes {
-  margin: 50px auto 0;
+  margin: 0 auto 0;
   display: flex;
   justify-content: space-between;
+  position: relative;
+  top:50px;
+  margin: 0 auto 0;
 
 }
 
@@ -164,6 +190,7 @@
   height: 316px;
   width: 515px;
   margin: 0 20px 0;
+z-index: 3;
 
 }
 .video__iframe:last-child{
@@ -173,7 +200,8 @@
 .oakley{
   display: flex;
   justify-content: center;
-  margin:160px auto 80px
+  position: relative;
+  background-color: #f2f2f2;
 
 }
 
@@ -182,6 +210,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin:160px auto 80px;
 }
 
 .two-columns__brief {
@@ -312,10 +341,17 @@
   top: 50%;
   color: #2f80ed;
   text-decoration: none;
+  opacity: 1;
+}
+
+.feynman__link:hover {
+  opacity: 0.5;
+  transition: opacity 0.2s  linear;
 }
 
 .khan {
   margin: 105px auto 0;
+  background-color: #f2f2f2;
 }
 
 .khan__container {
@@ -369,7 +405,7 @@
   height: 620px;
   width: 608px;
   background-image: url(../images/khan-book.jpg);
-
+background-size: cover;
 
 }
 
@@ -381,6 +417,13 @@
   line-height: 42px;
   font-size: 30px;
   font-weight: normal;
+  opacity: 1;
+  display: inline;
+}
+
+.khan__buy-link:hover {
+  opacity: 0.5;
+  transition: opacity 0.2s  linear;
 }
 
 .kaufman {
@@ -457,10 +500,14 @@
 
 .resourses__logo {
   height: 38px;
-  width: 270px
-
+  width: 270px;
+  opacity: 1;
 }
 
+.resourses__logo:hover {
+  opacity: 0.5;
+  transition: opacity 0.2s  linear;
+}
 .footer {
   padding-top: 60px;
   padding-bottom: 40px;
@@ -516,6 +563,12 @@
   font-size: 18px;
   font-weight: normal;
   text-decoration: none;
+  opacity: 1;
+}
+
+.footer__column-link:hover{
+  opacity: 0.5;
+  transition: opacity 0.2s  linear;
 }
 
 .footer__social-icon {
