@@ -123,7 +123,6 @@ animation: rotation 20s linear infinite;
   padding: 0;
   margin: 0;
   list-style-type: none;
-
 }
 
 .cards__item{
@@ -131,7 +130,6 @@ animation: rotation 20s linear infinite;
   flex-direction: column;
   margin:60px 100px 0 0;
   width: 240px;
-
 }
 
 .cards__item:nth-of-type(3n) {
@@ -144,8 +142,6 @@ animation: rotation 20s linear infinite;
   margin: 0 40px;
   display: block;
   border-radius: 100px;
-
-
 }
 
 .cards__title {
@@ -155,8 +151,6 @@ animation: rotation 20s linear infinite;
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
-
-
 }
 
 .cards__description {
@@ -166,14 +160,12 @@ animation: rotation 20s linear infinite;
   line-height: 23px;
   font-size: 18px;
   font-weight: normal;
-
 }
 
 .video {
   display: flex;
   flex-direction: column;
   padding-top: 100px;
-
 }
 
 .video__iframes {
@@ -183,16 +175,15 @@ animation: rotation 20s linear infinite;
   position: relative;
   top:50px;
   margin: 0 auto 0;
-
 }
 
 .video__iframe {
   height: 316px;
   width: 515px;
   margin: 0 20px 0;
-z-index: 3;
-
+  z-index: 3;
 }
+
 .video__iframe:last-child{
   margin: 0;
 }
@@ -202,7 +193,6 @@ z-index: 3;
   justify-content: center;
   position: relative;
   background-color: #f2f2f2;
-
 }
 
 .two-columns {
@@ -357,18 +347,15 @@ z-index: 3;
 .khan__container {
   width: 80%;
   margin: 0 auto 0;
-
 }
 .khan__author {
   line-height: 42px;
   font-size: 30px;
   font-weight: normal;
   margin: 0;
-
-
  }
 
- .title {
+ .khan__title {
   margin: 0;
   line-height: 1.15;
   font-size: 60px;
@@ -394,19 +381,16 @@ z-index: 3;
   line-height: 1.15;
   font-size: 24px;
   font-weight: normal;
-
 }
 .khan__book-container {
   display: flex;
   flex-direction: row;
-
 }
 .khan__book-pic {
   height: 620px;
   width: 608px;
   background-image: url(../images/khan-book.jpg);
-background-size: cover;
-
+  background-size: cover;
 }
 
 .khan__buy-link{
@@ -487,7 +471,6 @@ background-size: cover;
 
 .resources {
   padding-top: 100px;
-
 }
 
 .resources__logo-zone {
@@ -495,7 +478,6 @@ background-size: cover;
   width: 1100px;
   display: flex;
   flex-direction: row;
-
 }
 
 .resourses__logo {

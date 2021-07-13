@@ -1,0 +1,6 @@
+.table__cell_theme_dark:nth-of-type(4n) {
+  margin-right: auto;
+}
+.table__cell_theme_dark:nth-of-type(5n) {
+  margin-right: 0;
+}
